@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-rekognition`](https://www.npmjs.com/package/@aws-sdk/client-rekognition/v/3.282.0).
+[`@aws-sdk/client-rekognition`](https://www.npmjs.com/package/@aws-sdk/client-rekognition/v/3.287.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.282.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.287.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-G1qfecHusfUTG74Cp2OLa8xyi5oAR46wYbnc/CBl5rdynHPF3aJtCdMqG97X8TM5
+sha384-gpNiT8KCDyraDhxoUC0SCApXi77jB+UH0A3jLWNTJmA230JJfiMV6R8qZe0CeILr
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-rekognition": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.282.0/index.min.mjs"
+            "@aws-sdk/client-rekognition": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.287.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.282.0/index.min.mjs": "sha384-G1qfecHusfUTG74Cp2OLa8xyi5oAR46wYbnc/CBl5rdynHPF3aJtCdMqG97X8TM5"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.287.0/index.min.mjs": "sha384-gpNiT8KCDyraDhxoUC0SCApXi77jB+UH0A3jLWNTJmA230JJfiMV6R8qZe0CeILr"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-rekognition": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.282.0/index.min.mjs"
+                        "@aws-sdk/client-rekognition": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.287.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.282.0/index.min.mjs": "sha384-G1qfecHusfUTG74Cp2OLa8xyi5oAR46wYbnc/CBl5rdynHPF3aJtCdMqG97X8TM5"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rekognition@3.287.0/index.min.mjs": "sha384-gpNiT8KCDyraDhxoUC0SCApXi77jB+UH0A3jLWNTJmA230JJfiMV6R8qZe0CeILr"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.282.0`)
+* Always pin to a specific version (`@3.287.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-rekognition/blob/refs/tags/3.282.0/LICENSE
+https://github.com/cloud-sdk-builds/client-rekognition/blob/refs/tags/3.287.0/LICENSE
 ```
 
 ---
